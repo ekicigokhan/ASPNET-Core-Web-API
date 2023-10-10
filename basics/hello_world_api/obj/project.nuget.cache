@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "bzK2A8i9S8jzBTERavcMhCFmSZatzzJMRy3Xxtk6G150bN+JWo9TWnilZ2cTGzGkqCXD15ROem7Biw8Qs80b/g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gokot\\User\\BTK CAMP\\basics\\hello_world_api\\hello_world_api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gokot\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\gokot\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\gokot\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\gokot\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\gokot\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\gokot\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
