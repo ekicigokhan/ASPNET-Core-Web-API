@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "4cicn4twmS8ID/Cb433Bbhhbi5z9JRKDAuvfbtAJ5UoTImzOhLOd7SLJvQNpOjqWTE9xAcakps0n6sJBersqUA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\admin\\user\\bsStoreApp\\Repositories\\Repositories.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.12\\microsoft.entityframeworkcore.7.0.12.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.12\\microsoft.entityframeworkcore.abstractions.7.0.12.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.12\\microsoft.entityframeworkcore.analyzers.7.0.12.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
