@@ -97,3 +97,6 @@ C:\Users\admin\user\bsStoreApp\WebAPI\bin\Debug\net6.0\Services.dll
 C:\Users\admin\user\bsStoreApp\WebAPI\bin\Debug\net6.0\Services.pdb
 C:\Users\admin\user\bsStoreApp\WebAPI\bin\Debug\net6.0\Presentation.dll
 C:\Users\admin\user\bsStoreApp\WebAPI\bin\Debug\net6.0\Presentation.pdb
+C:\Users\admin\user\bsStoreApp\WebAPI\bin\Debug\net6.0\nlog.config
+C:\Users\admin\user\bsStoreApp\WebAPI\bin\Debug\net6.0\NLog.dll
+C:\Users\admin\user\bsStoreApp\WebAPI\bin\Debug\net6.0\NLog.Extensions.Logging.dll

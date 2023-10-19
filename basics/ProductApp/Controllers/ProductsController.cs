@@ -11,7 +11,7 @@ namespace ProductApp.Controllers
         private readonly ILogger<ProductsController> _logger; //readonly :  CTOR,Tanımlandığı yer.
          
         public ProductsController(ILogger<ProductsController> logger)
-        {//Newlendiği anda CTOR'dan çıktığımdda logger ifadesinin concrete hali elimde olacak IoC.
+        {//Newlendiği anda CTOR'dan çıktığımdda logger ifadesinin concmmmMrete hali elimde olacak IoC.
             _logger = logger;
         }
         [HttpGet]
