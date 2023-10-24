@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "IJd3pZs1tTLdL/QAZ0V/1mme+H2cc1NwPTWblKSYIyb057eyq08bcVBHadQ40CKL47PTRB9ycku3HaX6j37q8w==",
+  "dgSpecHash": "q0miCPtZtmZWpFr/5OJ6WDBAx1MDFIAlKKsrXdHrjtfmafqKy34P8om050DSlUlxK9UJunRHO8BcT3d6KCvOjA==",
   "success": true,
   "projectFilePath": "C:\\Users\\admin\\user\\bsStoreApp\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

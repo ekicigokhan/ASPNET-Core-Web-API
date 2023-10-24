@@ -11,7 +11,16 @@ LogManager.LoadConfiguration(String.Concat(Directory.GetCurrentDirectory(), "/nl
 
 // Add services to the container.
 
-builder.Services.AddControllers().AddApplicationPart(typeof(Presentation.AssemblyRefence).Assembly).AddNewtonsoftJson();
+builder.Services.AddControllers(config =>
+{
+    config.RespectBrowserAcceptHeader = true; //default : false yani */* olayý. Artýk ÝP'a açýðýz :)
+    config.ReturnHttpNotAcceptable = true; // Þimdi 406 NotAcceptable hatasý alacaðýz.
+})
+    .AddXmlDataContractSerializerFormatters()
+    .AddApplicationPart(typeof(Presentation.AssemblyRefence).Assembly)
+    .AddNewtonsoftJson();
+// typeof : Presentation.AssemblyRefence'a ait tüm bilgiler Controller'a eklendi.
+// Elimizdeki verilerin Type'ýný yani türüyle ilgili bilgileri elde atmek için kullanýrýz.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -19,6 +28,7 @@ builder.Services.ConfigureSqlContext(builder.Configuration);
 builder.Services.ConfigureRepositoryManager(); // parametresi this içerdiði için vermek zorunda deðilim.
 builder.Services.ConfigureServiceManager();
 builder.Services.ConfigureLoggerService();
+builder.Services.AddAutoMapper(typeof(Program));
 
 var app = builder.Build();
 
