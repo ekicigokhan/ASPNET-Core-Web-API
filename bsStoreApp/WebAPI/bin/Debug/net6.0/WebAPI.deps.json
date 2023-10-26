@@ -9,7 +9,6 @@
       "WebAPI/1.0.0": {
         "dependencies": {
           "Entities": "1.0.0",
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.23",
           "Microsoft.EntityFrameworkCore.Design": "7.0.12",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.12",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.12",
@@ -191,7 +190,7 @@
           "System.Threading.Tasks.Extensions": "4.5.4"
         }
       },
-      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.23": {
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.24": {
         "dependencies": {
           "Microsoft.AspNetCore.JsonPatch": "7.0.12",
           "Newtonsoft.Json": "13.0.1",
@@ -199,8 +198,8 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll": {
-            "assemblyVersion": "6.0.23.0",
-            "fileVersion": "6.0.2323.48007"
+            "assemblyVersion": "6.0.24.0",
+            "fileVersion": "6.0.2423.51812"
           }
         }
       },
@@ -926,6 +925,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.JsonPatch": "7.0.12",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.24",
           "Services": "1.0.0"
         },
         "runtime": {
@@ -1086,12 +1086,12 @@
       "path": "microsoft.aspnetcore.mvc.core/2.2.5",
       "hashPath": "microsoft.aspnetcore.mvc.core.2.2.5.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.23": {
+    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/6.0.24": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-bNde+dtBk/Ymj6v0cuKHSfDQl140KtB3tfbbMt5N5cdlySRYAORMf4ItKnrDDPK/V9zDgUlpfw65gEtUeBsbDA==",
-      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/6.0.23",
-      "hashPath": "microsoft.aspnetcore.mvc.newtonsoftjson.6.0.23.nupkg.sha512"
+      "sha512": "sha512-GBXLS59fDeIzjRHJ2OsYPFFU0zXfIPsJmOI95Q5a3Pvnb0afjeYKFMKOEwL5wb4pwWP8JeJZvM5ZhDKCeCRjWQ==",
+      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/6.0.24",
+      "hashPath": "microsoft.aspnetcore.mvc.newtonsoftjson.6.0.24.nupkg.sha512"
     },
     "Microsoft.AspNetCore.ResponseCaching.Abstractions/2.2.0": {
       "type": "package",

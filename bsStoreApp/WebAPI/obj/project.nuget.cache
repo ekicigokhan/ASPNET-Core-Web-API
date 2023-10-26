@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "q0miCPtZtmZWpFr/5OJ6WDBAx1MDFIAlKKsrXdHrjtfmafqKy34P8om050DSlUlxK9UJunRHO8BcT3d6KCvOjA==",
+  "dgSpecHash": "WvGJt490VoNgfBrcOMTNfkk7NJ8/EyxaHByijzw93x+TInSZvsV9b8OPGdgERnkADbUfjuKQu3hiDEVZXSFZ7g==",
   "success": true,
   "projectFilePath": "C:\\Users\\admin\\user\\bsStoreApp\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
@@ -22,7 +22,7 @@
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\7.0.12\\microsoft.aspnetcore.jsonpatch.7.0.12.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.mvc.abstractions\\2.2.0\\microsoft.aspnetcore.mvc.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.mvc.core\\2.2.5\\microsoft.aspnetcore.mvc.core.2.2.5.nupkg.sha512",
-    "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.23\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.23.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.24\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.24.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.responsecaching.abstractions\\2.2.0\\microsoft.aspnetcore.responsecaching.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.routing\\2.2.0\\microsoft.aspnetcore.routing.2.2.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.routing.abstractions\\2.2.0\\microsoft.aspnetcore.routing.abstractions.2.2.0.nupkg.sha512",

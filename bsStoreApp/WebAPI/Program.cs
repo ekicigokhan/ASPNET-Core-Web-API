@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NLog;
 using Repositories.EFCore;
@@ -19,6 +20,10 @@ builder.Services.AddControllers(config =>
     .AddXmlDataContractSerializerFormatters()
     .AddApplicationPart(typeof(Presentation.AssemblyRefence).Assembly)
     .AddNewtonsoftJson();
+builder.Services.Configure<ApiBehaviorOptions>(options =>
+{
+    options.SuppressModelStateInvalidFilter = true; //Sadece istediðim hatalarýn gözükmesini istiyorum.
+});
 // typeof : Presentation.AssemblyRefence'a ait tüm bilgiler Controller'a eklendi.
 // Elimizdeki verilerin Type'ýný yani türüyle ilgili bilgileri elde atmek için kullanýrýz.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

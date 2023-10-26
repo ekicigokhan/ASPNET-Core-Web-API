@@ -39,12 +39,16 @@ namespace Presentation.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateBook([FromBody] Book book)
+        public IActionResult CreateBook([FromBody] BookDtoForInsertion bookDto)
         {
-            if (book is null)
+            if (bookDto is null)
                 return BadRequest();
-            _manager.BookService.CreateOneBook(book);
-            return StatusCode(201, book);
+
+            if (!ModelState.IsValid)
+                return UnprocessableEntity(ModelState);
+
+            var book = _manager.BookService.CreateOneBook(bookDto);
+            return StatusCode(201, book); // CreatedAtRoute() URI elde edebiliyoruz.
         }
 
         [HttpPut("{id:int}")]
@@ -52,7 +56,13 @@ namespace Presentation.Controllers
         {
             if (bookDto is null)
                 return BadRequest();
-            _manager.BookService.UpdateOneBook(id, bookDto, true);
+
+            if (!ModelState.IsValid)
+            {
+                return UnprocessableEntity(ModelState);
+            }
+
+            _manager.BookService.UpdateOneBook(id, bookDto, false); // 500 hatası aldık validation böümünde ondan false'a çektik.
             return NoContent();
         }
 
@@ -64,12 +74,23 @@ namespace Presentation.Controllers
         }
 
         [HttpPatch("{id:int}")]
-        public IActionResult PartiallyUpdateByBook([FromRoute(Name = "id")] int id, [FromBody]JsonPatchDocument<Book> bookPatch)
+        public IActionResult PartiallyUpdateByBook([FromRoute(Name = "id")] int id,
+            [FromBody] JsonPatchDocument<BookDtoForUpdate> bookPatch)
         {
-            var entity = _manager.BookService.GetOneBookById(id, true);
 
-            bookPatch.ApplyTo(entity);
-            _manager.BookService.UpdateOneBook(id, new BookDtoForUpdate(entity.Id,entity.Title,entity.Price), true);
+            if (bookPatch is null)
+                return BadRequest();
+
+            var result = _manager.BookService.GetOneBookForPatch(id, false); // Burada btfupdate ve book nesnesini elde ettimm.
+
+            bookPatch.ApplyTo(result.bookDtoForUpdate, ModelState); //patchdocument'e btfupdate'i apply ettim.
+
+            TryValidateModel(result.bookDtoForUpdate); // sonra kontrolleri sağladım.
+
+            if(!ModelState.IsValid)
+                return UnprocessableEntity(ModelState); 
+
+            _manager.BookService.SaveChangesForPatch(result.bookDtoForUpdate, result.book);
 
             return NoContent();
         }
