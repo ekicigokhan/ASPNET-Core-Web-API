@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NLog;
+using Presentation.ActionFilters;
 using Repositories.EFCore;
 using Services.Contracts;
 using WebAPI.Extensions;
@@ -20,6 +21,8 @@ builder.Services.AddControllers(config =>
     .AddXmlDataContractSerializerFormatters()
     .AddApplicationPart(typeof(Presentation.AssemblyRefence).Assembly)
     .AddNewtonsoftJson();
+
+
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
     options.SuppressModelStateInvalidFilter = true; //Sadece istediðim hatalarýn gözükmesini istiyorum.
@@ -34,6 +37,7 @@ builder.Services.ConfigureRepositoryManager(); // parametresi this içerdiði için
 builder.Services.ConfigureServiceManager();
 builder.Services.ConfigureLoggerService();
 builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.ConfigureActionFilters();
 
 var app = builder.Build();
 
