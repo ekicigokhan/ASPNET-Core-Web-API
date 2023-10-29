@@ -583,11 +583,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\user\\bsStoreApp\\Repositories\\Repositories.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\userdotNET\\bsStoreApp\\Repositories\\Repositories.csproj",
       "projectName": "Repositories",
-      "projectPath": "C:\\Users\\admin\\user\\bsStoreApp\\Repositories\\Repositories.csproj",
+      "projectPath": "C:\\Users\\admin\\userdotNET\\bsStoreApp\\Repositories\\Repositories.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\user\\bsStoreApp\\Repositories\\obj\\",
+      "outputPath": "C:\\Users\\admin\\userdotNET\\bsStoreApp\\Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -604,8 +604,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\admin\\user\\bsStoreApp\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\admin\\user\\bsStoreApp\\Entities\\Entities.csproj"
+            "C:\\Users\\admin\\userdotNET\\bsStoreApp\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\admin\\userdotNET\\bsStoreApp\\Entities\\Entities.csproj"
             }
           }
         }

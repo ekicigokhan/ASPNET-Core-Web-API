@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\user\\bsStoreApp\\Entities\\Entities.csproj": {}
+    "C:\\Users\\admin\\userdotNET\\bsStoreApp\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\user\\bsStoreApp\\Entities\\Entities.csproj": {
+    "C:\\Users\\admin\\userdotNET\\bsStoreApp\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\user\\bsStoreApp\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\userdotNET\\bsStoreApp\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\admin\\user\\bsStoreApp\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\admin\\userdotNET\\bsStoreApp\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\user\\bsStoreApp\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\admin\\userdotNET\\bsStoreApp\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

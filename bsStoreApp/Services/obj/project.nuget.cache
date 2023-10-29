@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "37NPYniVjXNS/+HZwsOLunomQusbT+AJV8NO06k3oVHoIRlqHNOs4WETMVMldtk8FyUKBYuCtX0iyqdbHtTJsg==",
+  "dgSpecHash": "U42dkV6+IH6e9OTXxMOBp+TEV0kkXK94LKm+l1jTHHWNhiMDsul+gZv3ql/Q6mHjC4fteROk4S4ydvgoV5ki+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\user\\bsStoreApp\\Services\\Services.csproj",
+  "projectFilePath": "C:\\Users\\admin\\userdotNET\\bsStoreApp\\Services\\Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

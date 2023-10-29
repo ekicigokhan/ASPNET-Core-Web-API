@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4cicn4twmS8ID/Cb433Bbhhbi5z9JRKDAuvfbtAJ5UoTImzOhLOd7SLJvQNpOjqWTE9xAcakps0n6sJBersqUA==",
+  "dgSpecHash": "Op7/14sKxMFweb3ReZA38wnNL78HO+lvk2817fJMBZA3r5QvEZ8EmLw/mLaoSHfNLvJ1s5MCWF4JQdLVQP6zwA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\user\\bsStoreApp\\Repositories\\Repositories.csproj",
+  "projectFilePath": "C:\\Users\\admin\\userdotNET\\bsStoreApp\\Repositories\\Repositories.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.12\\microsoft.entityframeworkcore.7.0.12.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.12\\microsoft.entityframeworkcore.abstractions.7.0.12.nupkg.sha512",

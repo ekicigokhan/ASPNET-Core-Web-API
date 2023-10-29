@@ -29,5 +29,19 @@ namespace WebAPI.Extensions
             services.AddScoped<ValidationFilterAttribute>(); //Her kullanıcı için farklı bir nesne üretecek şekilde : AddScoped
             services.AddSingleton<LogFilterAttribute>(); // Loglama için  bir nesne oluşturmak yeterli.
         }
+
+        public static void ConfigureCors(this IServiceCollection services)
+        {
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy", builder => 
+                    builder
+                    .AllowAnyOrigin() //Tüm kökenlere izin ver.
+                    .AllowAnyMethod() 
+                    .AllowAnyHeader() 
+                    .WithExposedHeaders("X-Pagination")
+                );
+            });
+        }
     }
 }

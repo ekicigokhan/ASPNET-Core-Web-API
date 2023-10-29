@@ -118,3 +118,55 @@
 2023-10-28 18:00:21.7093 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
 2023-10-28 18:00:21.7093 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\admin\user\bsStoreApp\WebAPI\nlog.config
 2023-10-28 18:00:21.7336 Info Configuration initialized.
+2023-10-29 13:10:07.4677 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-29 13:10:07.5434 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-29 13:10:07.5984 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\admin\userdotNET\bsStoreApp\WebAPI\nlog.config
+2023-10-29 13:10:07.6576 Info Configuration initialized.
+2023-10-29 15:10:20.5492 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-29 15:10:20.5904 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-29 15:10:20.6270 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\admin\userdotNET\bsStoreApp\WebAPI\nlog.config
+2023-10-29 15:10:20.6554 Info Configuration initialized.
+2023-10-29 15:12:54.5330 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-29 15:12:54.5934 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-29 15:12:54.6434 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\admin\userdotNET\bsStoreApp\WebAPI\nlog.config
+2023-10-29 15:12:54.6858 Info Configuration initialized.
+2023-10-29 15:14:15.0585 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-29 15:14:15.1324 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-29 15:14:15.1864 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\admin\userdotNET\bsStoreApp\WebAPI\nlog.config
+2023-10-29 15:14:15.2327 Info Configuration initialized.
+2023-10-29 17:12:37.4136 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-29 17:12:37.4371 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-29 17:12:37.4505 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\admin\userdotNET\bsStoreApp\WebAPI\nlog.config
+2023-10-29 17:12:37.4505 Info Configuration initialized.
+2023-10-29 19:05:34.4252 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-29 19:05:34.4536 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-29 19:05:34.4732 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\admin\userdotNET\bsStoreApp\WebAPI\nlog.config
+2023-10-29 19:05:34.4945 Info Configuration initialized.
+2023-10-29 19:07:58.4896 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-29 19:07:58.5165 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-29 19:07:58.5320 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\admin\userdotNET\bsStoreApp\WebAPI\nlog.config
+2023-10-29 19:07:58.5443 Info Configuration initialized.
+2023-10-29 19:24:10.2386 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-29 19:24:10.2645 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-29 19:24:10.2778 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\admin\userdotNET\bsStoreApp\WebAPI\nlog.config
+2023-10-29 19:24:10.2778 Info Configuration initialized.
+2023-10-29 19:25:02.5100 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-29 19:25:02.5324 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-29 19:25:02.5450 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\admin\userdotNET\bsStoreApp\WebAPI\nlog.config
+2023-10-29 19:25:02.5450 Info Configuration initialized.
+2023-10-29 21:22:33.7570 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-29 21:22:33.7828 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-29 21:22:33.7828 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\admin\userdotNET\bsStoreApp\WebAPI\nlog.config
+2023-10-29 21:22:33.8075 Info Configuration initialized.
+2023-10-29 21:37:36.0760 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-29 21:37:36.1089 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-29 21:37:36.1297 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\admin\userdotNET\bsStoreApp\WebAPI\nlog.config
+2023-10-29 21:37:36.1468 Info Configuration initialized.
+2023-10-29 21:48:15.1449 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-29 21:48:15.1676 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-29 21:48:15.1676 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\admin\userdotNET\bsStoreApp\WebAPI\nlog.config
+2023-10-29 21:48:15.1943 Info Configuration initialized.
+2023-10-29 22:00:21.0323 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-10-29 22:00:21.0587 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-10-29 22:00:21.0737 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\admin\userdotNET\bsStoreApp\WebAPI\nlog.config
+2023-10-29 22:00:21.0737 Info Configuration initialized.

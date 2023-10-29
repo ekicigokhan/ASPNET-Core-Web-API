@@ -4010,11 +4010,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\user\\bsStoreApp\\Presentation\\Presentation.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\userdotNET\\bsStoreApp\\Presentation\\Presentation.csproj",
       "projectName": "Presentation",
-      "projectPath": "C:\\Users\\admin\\user\\bsStoreApp\\Presentation\\Presentation.csproj",
+      "projectPath": "C:\\Users\\admin\\userdotNET\\bsStoreApp\\Presentation\\Presentation.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\user\\bsStoreApp\\Presentation\\obj\\",
+      "outputPath": "C:\\Users\\admin\\userdotNET\\bsStoreApp\\Presentation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4031,8 +4031,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\admin\\user\\bsStoreApp\\Services\\Services.csproj": {
-              "projectPath": "C:\\Users\\admin\\user\\bsStoreApp\\Services\\Services.csproj"
+            "C:\\Users\\admin\\userdotNET\\bsStoreApp\\Services\\Services.csproj": {
+              "projectPath": "C:\\Users\\admin\\userdotNET\\bsStoreApp\\Services\\Services.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a0Bmul6jwH/ReYqKgfG6r13ezgvacWPWOEQimGIe6DmTfmr0jXdNLpwX2PjvM/CRfxt/cK7VyVFRDBAkQMYyZQ==",
+  "dgSpecHash": "svluEeQ+7nUj9+cV5fdLuf/ehN5Oz8j7RK79gUFxIRmENi+trOTe1UomwR4mAmhdxFMJNQAiZf8F1/DCsPQzTw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\user\\bsStoreApp\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\admin\\userdotNET\\bsStoreApp\\Entities\\Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

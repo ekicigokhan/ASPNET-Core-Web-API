@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WvGJt490VoNgfBrcOMTNfkk7NJ8/EyxaHByijzw93x+TInSZvsV9b8OPGdgERnkADbUfjuKQu3hiDEVZXSFZ7g==",
+  "dgSpecHash": "Hr4yQxWsp/vq03iiiJq/FJwYFLdUbzFgVvgTRj29u66QIrHcmJFgVMeBtc2NV/AIP0rjLd16pN6PBC6kPqEmKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\user\\bsStoreApp\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\admin\\userdotNET\\bsStoreApp\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
