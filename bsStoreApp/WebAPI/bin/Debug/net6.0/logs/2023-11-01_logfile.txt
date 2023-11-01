@@ -1,0 +1,103 @@
+2023-11-01 13:28:46.3223 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T10:28:46.2843165Z"}
+2023-11-01 13:29:37.5669 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T10:29:37.5668857Z"}
+2023-11-01 13:30:01.7428 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T10:30:01.7428721Z"}
+2023-11-01 13:31:51.9163 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T10:31:51.9163104Z"}
+2023-11-01 13:33:12.7070 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T10:33:12.7070066Z"}
+2023-11-01 13:33:20.9897 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T10:33:20.9897582Z"}
+2023-11-01 13:33:25.7552 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T10:33:25.7552725Z"}
+2023-11-01 13:33:29.1763 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T10:33:29.1763669Z"}
+2023-11-01 13:34:10.2043 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T10:34:10.2042905Z"}
+2023-11-01 13:34:21.7534 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T10:34:21.7533901Z"}
+2023-11-01 13:34:32.3236 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T10:34:32.3236269Z"}
+2023-11-01 13:34:47.0659 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T10:34:47.0659497Z"}
+2023-11-01 13:35:14.3878 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T10:35:14.3878447Z"}
+2023-11-01 13:35:34.7246 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T10:35:34.7246246Z"}
+2023-11-01 13:35:53.1379 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T10:35:53.1379648Z"}
+2023-11-01 13:36:05.2858 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T10:36:05.2857868Z"}
+2023-11-01 13:36:16.1683 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T10:36:16.168309Z"}
+2023-11-01 13:36:41.7013 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T10:36:41.7013401Z"}
+2023-11-01 13:36:44.6777 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T10:36:44.6776892Z"}
+2023-11-01 13:37:06.9582 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T10:37:06.9582123Z"}
+2023-11-01 13:37:07.1649 ERROR Something went wrong : Entities.Exceptions.PriceOutofRangeBadRequestException: Maximum price should be less than 1000 and greater than 10.
+   at Services.BookManager.GetAllBooksAsync(BookParameters bookParameters, Boolean trackChanges) in C:\Users\admin\userdotNET\bsStoreApp\Services\BookManager.cs:line 50
+   at Presentation.Controllers.BooksController.GetAllBooksAsync(BookParameters bookParameters) in C:\Users\admin\userdotNET\bsStoreApp\Presentation\Controllers\BooksController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-11-01 13:38:25.0706 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T10:38:25.0706307Z"}
+2023-11-01 13:38:25.1359 ERROR Something went wrong : Entities.Exceptions.PriceOutofRangeBadRequestException: Maximum price should be less than 1000 and greater than 10.
+   at Services.BookManager.GetAllBooksAsync(BookParameters bookParameters, Boolean trackChanges) in C:\Users\admin\userdotNET\bsStoreApp\Services\BookManager.cs:line 50
+   at Presentation.Controllers.BooksController.GetAllBooksAsync(BookParameters bookParameters) in C:\Users\admin\userdotNET\bsStoreApp\Presentation\Controllers\BooksController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-11-01 13:38:30.6880 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T10:38:30.6880657Z"}
+2023-11-01 13:38:36.9548 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T10:38:36.9547266Z"}
+2023-11-01 13:39:17.6985 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T10:39:17.6984863Z"}
+2023-11-01 13:55:33.3236 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T10:55:33.2930469Z"}
+2023-11-01 13:55:51.0967 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T10:55:51.0967382Z"}
+2023-11-01 13:56:00.9138 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T10:56:00.9137821Z"}
+2023-11-01 13:56:21.6478 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T10:56:21.6478579Z"}
+2023-11-01 13:56:32.0789 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T10:56:32.078916Z"}
+2023-11-01 13:56:38.7211 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T10:56:38.721134Z"}
+2023-11-01 13:56:38.8831 ERROR Something went wrong : Entities.Exceptions.PriceOutofRangeBadRequestException: Maximum price should be less than 1000 and greater than 10.
+   at Services.BookManager.GetAllBooksAsync(BookParameters bookParameters, Boolean trackChanges) in C:\Users\admin\userdotNET\bsStoreApp\Services\BookManager.cs:line 50
+   at Presentation.Controllers.BooksController.GetAllBooksAsync(BookParameters bookParameters) in C:\Users\admin\userdotNET\bsStoreApp\Presentation\Controllers\BooksController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2023-11-01 14:01:09.7391 INFO {"ModelModel":"onActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2023-11-01T11:01:09.7145879Z"}
+2023-11-01 14:01:09.9034 ERROR Something went wrong : Entities.Exceptions.PriceOutofRangeBadRequestException: Minimum price should be less than maximum price.
+   at Services.BookManager.GetAllBooksAsync(BookParameters bookParameters, Boolean trackChanges) in C:\Users\admin\userdotNET\bsStoreApp\Services\BookManager.cs:line 50
+   at Presentation.Controllers.BooksController.GetAllBooksAsync(BookParameters bookParameters) in C:\Users\admin\userdotNET\bsStoreApp\Presentation\Controllers\BooksController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
